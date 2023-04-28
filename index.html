@@ -13,62 +13,69 @@
 </head>
 
 <body>
+    <!-- cambios: 
+        1. Navbar and Conferencia adjusts better in sizes 300px to 575px -->
+
+
     <!-- Barra de Navegación-->
-    <nav class="navbar navbar-expand-lg fondo-casi-negro navbar-dark py-3">
-        <div class="container-fluid mx-5 align-items-center px-2">
-            <a class="navbar-brand  px-0" href="https://buenosaires.gob.ar/educacion/codo-codo-40"
+    <nav class="navbar navbar-expand-lg  fondo-casi-negro navbar-dark py-3 border border-success barra">
+        <div class="container-fluid mx-5 align-items-center px-2 border border-danger brand">
+            <a class="navbar-brand px-0 border border-info" href="https://buenosaires.gob.ar/educacion/codo-codo-40"
                 target="_blank">
-                <img src="./img/codoacodo.png" alt="codoacodo" width="80"">
-                Conf Bs As
+                <img src="./img/codoacodo.png" alt="codoacodo" width="80" id="imagenbrand">
+                <span id="textobrand">Conf Bs As</span>
             </a>
-            <div class=" justify-content-end">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div class="justify-content-end border border-danger">
+                <button class="navbar-toggler hambur" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-right mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item text-center">
-                            <a class="nav-link active" aria-current="page" href=#la-conferencia>La conferencia</a>
+                        <li class="nav-item text-end">
+                            <a class="nav-link active linksheader" aria-current="page" href=#la-conferencia>La
+                                conferencia</a>
                         </li>
-                        <li class="nav-item text-center">
-                            <a class="nav-link active" aria-current="page" href="#los-oradores">Los oradores</a>
+                        <li class="nav-item text-end">
+                            <a class="nav-link active linksheader " aria-current="page" href="#los-oradores">Los
+                                oradores</a>
                         </li>
-                        <li class="nav-item text-center">
+                        <li class="nav-item text-end linksheader">
                             <a class="nav-link active" aria-current="page" href="#el-lugar-y-la-fecha">El lugar y la
                                 fecha</a>
                         </li>
-                        <li class="nav-item text-center">
+                        <li class="nav-item text-end linksheader">
                             <a class="nav-link active" aria-current="page" href="#conviertete-en-orador">Conviértete en
                                 orador</a>
                         </li>
-                        <li class="nav-item text-center">
-                            <a class="nav-link active  text-success" aria-current="page"
+                        <li class="nav-item text-end">
+                            <a class="nav-link active text-success linksheader" aria-current="page"
                                 href="https://www.ticketek.com.ar/" target="_blank">Comprar
                                 tickets</a>
                         </li>
                     </ul>
                 </div>
-        </div>
+            </div>
         </div>
     </nav>
 
     <!-- La Conferencia-->
     <div class="card text-bg-dark border-0 rounded-0" id="la-conferencia">
         <img src="./img/ba1.jpg" class="card-img opacity-50" alt="bs as">
-        <div class="card-img-overlay d-flex flex-column justify-content-center mx-5">
-            <h3 class="card-title align-self-end">Conf Bs As</h3>
-            <p class="card-text text-end align-self-end col-md-6">Bs As llega por primera vez a Argentina. Un evento
+        <div class="card-img-overlay d-flex flex-column justify-content-center mx-sm-5">
+            <h3 class="card-title align-self-end" id="tituloconferencia">Conf Bs As</h3>
+            <p class="card-text text-end align-self-end  col-md-9" id="textoconferencia">Bs As llega por primera vez a
+                Argentina. Un evento
                 para
                 compartir con nuestra
                 comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a
                 conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
                 tenemos para ti. Te esperamos!</p>
             <div class="d-flex align-self-end ">
-                <button type="button" class="btn btn-sm btn-outline-light align-self-end text-nowrap me-2">Quiero
+                <button type="button" class="btn btn-sm btn-outline-light align-self-end text-nowrap me-2 botonConferencia">Quiero
                     ser orador</button>
-                <button type="button" class="btn btn-success btn-sm align-self-end text-nowrap">Comprar
+                <button type="button" class="btn btn-success btn-sm align-self-end text-nowrap botonConferencia">Comprar
                     Tickets</button>
             </div>
         </div>
