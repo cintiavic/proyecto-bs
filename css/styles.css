@@ -1,3 +1,4 @@
+
 .texto-small {
     font-size: 0.7rem;
     line-height: 1.25rem;
@@ -95,7 +96,7 @@
     }
 
     #tituloconferencia {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 0.5rem
     }
 
@@ -150,9 +151,3 @@
 
 
 }
-/* @media (max-width:600px) and (min-width:500px) {
-    #tituloconferencia {
-        font-size: 22px;
-        line-height: 0.75rem
-    }
-} */
