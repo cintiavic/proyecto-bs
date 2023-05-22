@@ -40,5 +40,6 @@ function borrarForm() {
 
 const botonResumen = document.getElementById("btnResumen");
 const botonBorrar = document.getElementById("btnBorrar");
+
 botonResumen.onclick = mostrarTotalAPagar;
 botonBorrar.onclick = borrarForm;
