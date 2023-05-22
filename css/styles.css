@@ -13,6 +13,11 @@
     font-size: 1.25rem;
 }
 
+.texto-xlarge-negrita {
+    font-size: 1.5rem;
+    font-weight:600
+}
+
 .texto-badge {
     font-size: 0.7rem;
     padding: 0.2rem 0.4rem 0.2rem 0.4rem
@@ -57,6 +62,17 @@
     text-align: center;
 }
 
+.totalAPagar {
+    background-color: rgb(200, 231, 241);
+    color:rgb(10, 78, 146);
+    font-weight: 400;
+    font-size:0.9rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    margin-bottom:0rem;
+    
+   
+}
 
 @media (max-width:428px) and (min-width:300px) {
     .barra {
@@ -150,4 +166,12 @@
     }
 
 
+}
+
+@media (max-width:991px) and (min-width:768px)
+{
+    .texto-xlarge-negrita{
+        font-size: 1rem;
+
+    }
 }
